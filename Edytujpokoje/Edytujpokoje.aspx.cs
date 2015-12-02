@@ -31,11 +31,11 @@ public partial class Edytujpokoje : System.Web.UI.Page
         string typpokoj="";
         decimal cenapokoj = 0 ;
 
-<<<<<<< HEAD
+
         
-=======
+
         // Pobranie Id_rezerwacji
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
         conn.Open();
         MySqlCommand cmd = new MySqlCommand("SELECT Nr_pokoj, Ilosc_lozek, Ilosc_osob, Typ_pokoj, Cena_pokoj FROM pokoje WHERE @id_pokoj=id_pokoj", conn);
         cmd.CommandType = CommandType.Text;
@@ -82,13 +82,13 @@ public partial class Edytujpokoje : System.Web.UI.Page
             cmd2.Parameters.AddWithValue("@id_pokoj", TextBox_up_Id.Text);
             cmd2.ExecuteNonQuery();
             conn.Close();
-<<<<<<< HEAD
+
 
            
-=======
+
     
       
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
       
     }
 
@@ -126,9 +126,9 @@ public partial class Edytujpokoje : System.Web.UI.Page
             Blad.Visible = true;
 
         }
-<<<<<<< HEAD
+
         
-=======
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
+
     }
 }

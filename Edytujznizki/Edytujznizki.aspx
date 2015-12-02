@@ -63,13 +63,13 @@
 
         
     
-<<<<<<< HEAD
+
     <br />
     <asp:Label ID="Wyjatek" runat="server" Text="Bledne dane" Font-Size="Larger" 
         Visible="True"></asp:Label>
 
         
     
-=======
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
+
 </asp:Content>

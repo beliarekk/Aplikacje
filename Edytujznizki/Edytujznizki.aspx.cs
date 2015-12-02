@@ -19,23 +19,23 @@ public partial class Edytujznizki : System.Web.UI.Page
     string myConnectionString = "server=localhost; user id=root; Password=student; persistsecurityinfo=True; database=mydb; port=3306";
     protected void Page_Load(object sender, EventArgs e)
     {
-<<<<<<< HEAD
+
         
     
         Wyjatek.Visible = false;
     
-=======
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
+
 
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-<<<<<<< HEAD
+
          try
         {
 
-=======
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
+
         conn = new MySql.Data.MySqlClient.MySqlConnection();
         conn.ConnectionString = myConnectionString;
 
@@ -51,7 +51,7 @@ public partial class Edytujznizki : System.Web.UI.Page
         
         cmd3.ExecuteNonQuery();
         conn.Close();
-<<<<<<< HEAD
+
  }
          catch (Exception ex)
          {
@@ -60,10 +60,10 @@ public partial class Edytujznizki : System.Web.UI.Page
          }
         //Response.Redirect("Edytujznizki.aspx");
        
-=======
+
 
         Response.Redirect("Edytujznizki.aspx");
 
->>>>>>> eabc05e76f3c1b0eff4d50a1a80e43a4efc5521c
+
     }
 }
